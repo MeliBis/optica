@@ -11,7 +11,7 @@ const HomePage = () => {
       <SectionCarrousel/>
       <IntroSection1/>
       <Section2Gallery/>
-      <Section3Testimonials/>
+     
       <FrequentQuestionSection4/>
     </div>
   )

@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top mb-5">
@@ -73,6 +72,8 @@ const Navbar = () => {
         </button>
       </div>
     </nav>
+
+    
   )
 }
 

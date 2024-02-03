@@ -1,8 +1,11 @@
 import React from 'react'
+import About from '../Components/About/About'
 
 const AbourtPage = () => {
   return (
-    <div>AbourtPage</div>
+    <div className='mt-5'>
+      <About/>
+    </div>
   )
 }
 

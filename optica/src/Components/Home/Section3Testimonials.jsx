@@ -1,7 +1,7 @@
 
 const Section3Testimonials = () => {
   return (
-    <section className='section'>
+    <section className='section container'>
     <div className="container">
       <h2 className="section-header text-center">
         Testimonios <span>de nuestros pacientes</span>
