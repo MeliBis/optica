@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
+import logoOpti from '../../assets/logo/imagotipo.png'
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top mb-5">
       <div className="container">
         <Link className="navbar-brand me-auto" to="/">
-          <img src='' alt="" width={50} height={50} />
+          <img src={logoOpti} alt="" width={70} height={70} />
         </Link>
 
         <div
@@ -25,7 +26,7 @@ const Navbar = () => {
             />
           </div>
           <div className="offcanvas-body">
-            <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/">
                   Inicio

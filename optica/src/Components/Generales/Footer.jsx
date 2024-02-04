@@ -1,57 +1,85 @@
-import { Link } from 'react-router-dom'
-
+import { Link } from "react-router-dom";
+import imgLogo from "../../assets/logo/logo-white.png";
 const Footer = () => {
   return (
-<footer className="bg-gray-800 py-2">
-    <div className="container-fluid">
-    <div className="row p-5 bg-dark text-white ">
-      <div className="col-xs-12 col-md-6 col-lg-3">
-        <Link className="navbar-brand " to="/">
-          <img src='' alt="" width={50} height={50} />
-        </Link>
+    <footer className="bg-gray-800 py-2">
+      <div className="container-fluid text-center">
+        <div className="row p-5 bg-dark text-white ">
+          <div className="col-xs-12 col-md-6 col-lg-3 text-center">
+            <Link className="navbar-brand " to="/">
+              <img src={imgLogo} alt="" width={100} height={100} />
+            </Link>
+            <p className="pt-4  text-secondary text-decoration-none">
+              Zacatlán Puebla
+            </p>
+          </div>
+          <div className="col-xs-12 col-md-6 col-lg-3">
+            <p className="h5 mb-3">Horario de atención</p>
+            <div></div>
+            <div>
+              <Link className="text-secondary text-decoration-none">
+                9:00am a 5:00pm
+              </Link>
+            </div>
+         
+            <div>
+              <Link className="text-secondary text-decoration-none">
+                Lunes a Viernes
+              </Link>
+            </div>
+          
+          </div>
+          <div className="col-xs-12 col-md-6 col-lg-3 ">
+            <p className="h5 mb-3 ">Conócenos</p>
 
-      </div>
-      <div className="col-xs-12 col-md-6 col-lg-3">
-        <p className="h5 mb-3">Zacatlán, Puebla</p>
-        <div>
-          <Link className="text-secondary text-decoration-none">
-            Horario de atención:
-          </Link>
-        </div>
-        <div>
-          <Link className="text-secondary text-decoration-none">
-            9:00am a 5:00pm
-          </Link>
-        </div>
-        <div>
-          <Link className="text-secondary text-decoration-none">
-          Dirección
-          </Link>
-        </div>
-        <div>
-          <Link className="text-secondary text-decoration-none">
-            Dirección
-          </Link>
-        </div>
-      </div>
-      <div className="col-xs-12 col-md-6 col-lg-3">
-        <p className="h5 mb-3">Conócenos</p>
-        
-      </div>
-      <div className="col-xs-12 col-md-6 col-lg-3">
-        <div className="h5 mb-3">Legales</div>
-        <ul>
-                    <li><a href="aviso-legal.html">Aviso legal</a></li>
-                    <li><a href="politica-privacidad.html">Política de privacidad</a></li>
-                    <li><a href="politica-cookies.html">Política de cookies</a></li>
-                </ul>
-  
-        <div>
-        </div>
-      </div>
+            <div>
+              <Link className="text-secondary text-decoration-none">
+               Tel: 56-1598-7650
+              </Link>
+            </div>
+            <div>
+              <Link className="text-secondary text-decoration-none">
+                Dirección
+              </Link>
+            </div>
+            <div>
+              <Link className="text-secondary text-decoration-none">
+                Dirección
+              </Link>
+            </div>
+            <div>
+              <Link className="text-secondary text-decoration-none"></Link>
+            </div>
+          </div>
+          <div className="col-xs-12 col-md-6 col-lg-3 ">
+            <div className="h5 mb-3 ">Legales</div>
+            <ul className="list-group list-unstyled">
+              <li>
+                <Link className="text-decoration-none" to="aviso-legal.html">
+                  Aviso legal
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-decoration-none"
+                  to="politica-privacidad.html"
+                >
+                  Política de privacidad
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-decoration-none"
+                  to="politica-cookies.html"
+                >
+                  Política de cookies
+                </Link>
+              </li>
+            </ul>
+            <div></div>
+          </div>
 
-    
-      <hr className="mt-3" />
+          <hr className="mt-3" />
           <div className="col-xs-12 col-md-6 col-lg-3 container-fluid">
             <div className="h5 mb-3 text-center">Contáctanos</div>
             <ul>
@@ -76,7 +104,7 @@ const Footer = () => {
                   target={"blank"}
                   className="text-reset"
                 >
-              <svg
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
                     fill="currentColor"
@@ -87,12 +115,26 @@ const Footer = () => {
                   </svg>{" "}
                 </Link>
                 <Link
+                  to=" https://twitter.com/Kamtali_mx"
+                  target={"blank"}
+                  className="text-reset"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    fill="currentColor"
+                    className="bi bi-whatsapp"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                  </svg>
+                </Link>
+                <Link
                   to="/"
                   target={"blank"}
                   className="text-reset me-4"
-                >
-                
-                </Link>
+                ></Link>
               </li>
             </ul>
             <ul className="col-10 col-md-2 list-unstyled"></ul>
@@ -100,14 +142,13 @@ const Footer = () => {
           <hr className="mt-3" />
           <div className="d-flex justify-content-center ">
             <p>
-              © <span className="date">2024</span> Copyright: Clinica
+              © <span className="date">2024</span> Copyright: Opti Center
             </p>
-    </div>
-    </div>
-  </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-</footer>
-  )
-}
-
-export default Footer
+export default Footer;

@@ -3,10 +3,15 @@ import header2 from "../../assets/carrusel-home/2.jpg";
 
 const Section1Carrousel = () => {
   return (
-      <div id="carouselExample" className="carousel slide">
+    <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={header1} className="d-block w-100" alt="..." />
+          <div className="posicion-boton">
+            <button type="button " className="btn btn-primary btn-lg">
+              Botón
+            </button>
+          </div>
         </div>
         <div className="carousel-item">
           <img src={header2} className="d-block w-100" alt="..." />
@@ -33,8 +38,8 @@ const Section1Carrousel = () => {
         <span className="carousel-control-next-icon" aria-hidden="true" />
         <span className="visually-hidden">Next</span>
       </button>
-    </div> 
-  /*   <div
+    </div>
+    /*   <div
       id="carouselExampleCaptions"
       className="carousel slide"
       data-bs-ride="false"
