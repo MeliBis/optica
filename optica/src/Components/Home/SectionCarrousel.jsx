@@ -1,4 +1,3 @@
-import header1 from "../../assets/carrusel-home/1.jpg";
 import header2 from "../../assets/carrusel-home/2.jpg";
 
 const Section1Carrousel = () => {
@@ -6,18 +5,16 @@ const Section1Carrousel = () => {
     <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={header1} className="d-block w-100" alt="..." />
+          <img src={header2} className="d-block w-100" alt="..." />
           <div className="posicion-boton">
-            <button type="button " className="btn btn-primary btn-lg">
-              Botón
-            </button>
+         
           </div>
         </div>
         <div className="carousel-item">
           <img src={header2} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={header1} className="d-block w-100" alt="..." />
+          <img src={header2} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button

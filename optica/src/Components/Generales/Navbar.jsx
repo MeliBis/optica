@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom'
-import logoOpti from '../../assets/logo/imagotipo.png'
+import { Link } from "react-router-dom";
+import logoOpti from "../../assets/logo/imagotipo.png";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top mb-5">
+    /*     <nav className="navbar navbar-expand-lg fixed-top mb-5">
       <div className="container">
         <Link className="navbar-brand me-auto" to="/">
           <img src={logoOpti} alt="" width={70} height={70} />
@@ -58,24 +58,63 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-{/*         <Link to="" className="login-button">
-          Login
-        </Link> */}
+
+      </div>
+    </nav> */
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div className="container">
+        <Link className="navbar-brand me-auto" href="#page-top" to="/">
+          <img src={logoOpti} alt="" width={70} height={70} />
+        </Link>
         <button
-          className="navbar-toggler pe-0"
+          className="navbar-toggler"
           type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon" />
+          Menu
+          <i className="fas fa-bars ms-1" />
         </button>
+        <div className="collapse navbar-collapse" id="navbarResponsive">
+          <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="/">
+                Inicio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/sobre-nosotros">
+                Sobre nosotros
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/servicios">
+                Servicios
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/servicios">
+                Servicios
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/productos">
+                Productos
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contacto">
+                Contacto
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+  );
+};
 
-    
-  )
-}
-
-export default Navbar
+export default Navbar;

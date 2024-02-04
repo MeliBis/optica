@@ -9,7 +9,7 @@ const Footer = () => {
             <Link className="navbar-brand " to="/">
               <img src={imgLogo} alt="" width={100} height={100} />
             </Link>
-            <p className="pt-4  text-secondary text-decoration-none">
+            <p className="pt-1  text-secondary text-decoration-none">
               Zacatlán Puebla
             </p>
           </div>
@@ -30,7 +30,7 @@ const Footer = () => {
           
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3 ">
-            <p className="h5 mb-3 ">Conócenos</p>
+            <p className="h5  mt-3 ">Conócenos</p>
 
             <div>
               <Link className="text-secondary text-decoration-none">
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3 ">
-            <div className="h5 mb-3 ">Legales</div>
+            <div className="h5 mt-3 ">Legales</div>
             <ul className="list-group list-unstyled">
               <li>
                 <Link className="text-decoration-none" to="aviso-legal.html">
