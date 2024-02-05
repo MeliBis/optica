@@ -15,7 +15,8 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3">
-            <p className="h5 mb-3">Horario de atención</p>
+            <p className="h5 mb-3 mt-3">Horario de atención</p>
+
             <div></div>
             <div>
               <Link className="text-secondary text-decoration-none">

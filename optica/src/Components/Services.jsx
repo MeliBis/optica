@@ -1,4 +1,7 @@
-import React from 'react'
+import servicesIcon from "../assets/services/servicios-icono.png"
+import productsIcon from "../assets/services/productos-icono.png"
+import sucursalIcon from "../assets/services/sucursal-icono.png"
+
 
 const Services = () => {
   return (
@@ -15,9 +18,8 @@ const Services = () => {
           <div className="row text-center">
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary" />
-                <i className="fas fa-shopping-cart fa-stack-1x fa-inverse" />
-              </span>
+                <img src={productsIcon} width={100} className="" alt="" />
+               </span>
               <h4 className="my-3">Productos</h4>
               <p className="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
@@ -27,8 +29,7 @@ const Services = () => {
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary" />
-                <i className="fas fa-laptop fa-stack-1x fa-inverse" />
+              <img src={servicesIcon} width={100} className="" alt="" />
               </span>
               <h4 className="my-3">Servicios</h4>
               <p className="text-muted">
@@ -39,8 +40,7 @@ const Services = () => {
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fas fa-circle fa-stack-2x text-primary" />
-                <i className="fas fa-lock fa-stack-1x fa-inverse" />
+              <img src={sucursalIcon} width={100} className="" alt="" />
               </span>
               <h4 className="my-3">Sucursales</h4>
               <p className="text-muted">
