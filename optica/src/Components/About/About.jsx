@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import imgAbout from '../../assets/about/mel.jpeg'
+import imgAbout from '../../assets/about/anali.jpg'
+
+
 const About = () => {
   return (
     <main className="flex-shrink-0">
@@ -42,7 +44,7 @@ const About = () => {
                   {/* TIP: For best results, use a photo with a transparent background like the demo example below*/}
                   {/* Watch a tutorial on how to do this on YouTube (link)*/}
                   <img
-                    className="profile-img"
+                    className="profile-img img-fluid"
                     src={imgAbout}
                     alt="..."
                   />
@@ -62,10 +64,10 @@ const About = () => {
                   <span className="text-gradient d-inline">Sobre mí</span>
                 </h2>
                 <p className="lead fw-light mb-4">
-                  My name is Start Bootstrap and I help brands grow.
+                  Doctora Anlí Cerecedo
                 </p>
                 <p className="text-muted">
-                La Dra. Analí Ceresedoz es una optometrista apasionada por la salud visual. Cuenta con 10 años de experiencia en el campo, y se dedica a brindar a sus pacientes una atención personalizada y de alta calidad.
+                Soy una optometrista apasionada por la salud visual. Cuenta con 10 años de experiencia en el campo, y se dedica a brindar a sus pacientes una atención personalizada y de alta calidad.
 
 Es especialista en la detección y tratamiento de problemas de visión, incluyendo errores refractivos (miopía, hipermetropía, astigmatismo), enfermedades oculares (glaucoma, cataratas, degeneración macular) y problemas de visión binocular.
 

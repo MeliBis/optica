@@ -18,7 +18,7 @@ const Services = () => {
                 <i className="fas fa-circle fa-stack-2x text-primary" />
                 <i className="fas fa-shopping-cart fa-stack-1x fa-inverse" />
               </span>
-              <h4 className="my-3">E-Commerce</h4>
+              <h4 className="my-3">Productos</h4>
               <p className="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
@@ -30,7 +30,7 @@ const Services = () => {
                 <i className="fas fa-circle fa-stack-2x text-primary" />
                 <i className="fas fa-laptop fa-stack-1x fa-inverse" />
               </span>
-              <h4 className="my-3">Responsive Design</h4>
+              <h4 className="my-3">Servicios</h4>
               <p className="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
@@ -42,7 +42,7 @@ const Services = () => {
                 <i className="fas fa-circle fa-stack-2x text-primary" />
                 <i className="fas fa-lock fa-stack-1x fa-inverse" />
               </span>
-              <h4 className="my-3">Web Security</h4>
+              <h4 className="my-3">Sucursales</h4>
               <p className="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta

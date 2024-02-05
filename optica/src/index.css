@@ -1,3 +1,6 @@
-/* @import url(./styles/navbarStyles.css);
- */@import url(./styles/testimonialsStyle.css);
+ @import url(./styles/navbarStyles.css);
+ 
+ @import url(./styles/navBarStyles2.css);
+ @import url(./styles//introSection.css);
+ @import url(./styles/testimonialsStyle.css);
 @import url('./styles/footer.css')

@@ -8,7 +8,7 @@ import ServicesPage from './ServicesPage'
 
 const HomePage = () => {
   return (
-    <div className='container-fluid mb-5'>
+    <div className='mb-5'>
       <SectionCarrousel/>
       <IntroSection1/>
       <ServicesPage/>
