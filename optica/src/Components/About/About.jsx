@@ -67,21 +67,17 @@ const About = () => {
                   Doctora Anlí Cerecedo
                 </p>
                 <p className="text-muted">
-                Soy una optometrista apasionada por la salud visual. Cuenta con 10 años de experiencia en el campo, y se dedica a brindar a sus pacientes una atención personalizada y de alta calidad.
-
-Es especialista en la detección y tratamiento de problemas de visión, incluyendo errores refractivos (miopía, hipermetropía, astigmatismo), enfermedades oculares (glaucoma, cataratas, degeneración macular) y problemas de visión binocular.
-
-También ofrece terapia visual para mejorar la coordinación ojo-mano, la percepción espacial y otras habilidades visuales.                </p>
+                Soy una optometrista apasionada por la salud visual. Cuenta con 10 años de experiencia en el campo, y se dedica a brindar a sus pacientes una atención personalizada y de alta calidad. Es especialista en la detección y tratamiento de problemas de visión, incluyendo errores refractivos (miopía, hipermetropía, astigmatismo), enfermedades oculares (glaucoma, cataratas, degeneración macular) y problemas de visión binocular. También ofrece terapia visual para mejorar la coordinación ojo-mano, la percepción espacial y otras habilidades visuales.                </p>
                 <div className="d-flex justify-content-center fs-2 gap-4">
-                  <a className="text-gradient" href="#!">
+                  <Link className="text-gradient" to="#">
                     <i className="bi bi-twitter" />
-                  </a>
-                  <a className="text-gradient" href="#!">
+                  </Link>
+                  <Link className="text-gradient" to="#!">
                     <i className="bi bi-linkedin" />
-                  </a>
-                  <a className="text-gradient" href="#!">
+                  </Link>
+                  <Link className="text-gradient" to ="#">
                     <i className="bi bi-github" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

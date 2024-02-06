@@ -55,15 +55,15 @@ const Footer = () => {
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3 ">
             <div className="h5 mt-3 ">Legales</div>
-            <ul className="list-group list-unstyled">
+            <ul className="list-group list-unstyled ">
               <li>
-                <Link className="text-decoration-none" to="aviso-legal.html">
+                <Link className=" text-decoration-none text-secondary link-warning" to="aviso-legal.html">
                   Aviso legal
                 </Link>
               </li>
               <li>
                 <Link
-                  className="text-decoration-none"
+                  className=" text-decoration-none text-secondary link-warning"
                   to="politica-privacidad.html"
                 >
                   Política de privacidad
@@ -71,7 +71,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  className="text-decoration-none"
+                  className=" text-decoration-none text-secondary link-warning"
                   to="politica-cookies.html"
                 >
                   Política de cookies
