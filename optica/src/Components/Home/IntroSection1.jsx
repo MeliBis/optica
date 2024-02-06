@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const IntroSection1 = () => {
   return (
@@ -10,9 +11,9 @@ const IntroSection1 = () => {
             <p className="text-white-75 mb-4 text-light">
               Todo lo que necesitas lo encontrarás en Opti Center
             </p>
-            <a className="btn btn-light btn-xl" >
+            <Link to='/servicios'className="btn btn-light btn-xl" >
               Ver armazones
-            </a>
+            </Link>
           </div>
         </div>
       </div>
